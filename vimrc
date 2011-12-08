@@ -12,6 +12,13 @@ set softtabstop=2
 set expandtab
 set autoindent
 
+"setting status line
+set statusline=%f
+set statusline+=%{fugitive#statusline()}
+set statusline+=%=
+set statusline+=%c,
+set statusline+=%l/%L
+set laststatus=2
 "key mapping
 nmap <silent> <F2> :NERDTreeToggle<CR>
 
