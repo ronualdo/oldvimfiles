@@ -22,4 +22,10 @@ set laststatus=2
 "key mapping
 nmap <silent> <F2> :NERDTreeToggle<CR>
 
-
+"zencoding config
+let g:user_zen_settings = {
+\  'indentation' : '  ',
+\  'gsp' : {
+\    'extends' : 'html',
+\  },
+\}
