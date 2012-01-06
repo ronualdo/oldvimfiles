@@ -19,8 +19,12 @@ set statusline+=%=
 set statusline+=%c,
 set statusline+=%l/%L
 set laststatus=2
+
 "key mapping
 nmap <silent> <F2> :NERDTreeToggle<CR>
+
+"supertab config
+let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
 
 "zencoding config
 let g:user_zen_settings = {
